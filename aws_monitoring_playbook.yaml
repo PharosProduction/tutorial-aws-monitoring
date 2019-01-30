@@ -1,0 +1,7 @@
+---
+- name: aws-monitoring
+  hosts: instances
+
+  roles:
+    - aws_monitoring
+   
